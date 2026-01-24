@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Pranav's Portfolio</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
+        type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+</head>
+
+<body>
+
+    <!-- home function -->
+    <div id="header">
+        <div class="container box">
+            <nav>
+                <h1 class="logo"><span>P</span>ranav.</h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#myskills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#coding-profiles">Profiles</a></li>
+                    <li><a href="#contactme">Contact</a></li>
+
+
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+
+                <div class="loader  animate__animated animate__slideInDown">
+                    <div class="snow">
+                        <span style="--i:11"></span>
+                        <span style="--i:12"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:17"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                    </div>
+                </div>
+                <div class="loaader  animate__animated animate__slideInDown">
+                    <div class="snow">
+                        <span style="--i:11"></span>
+                        <span style="--i:12"></span>
+                        <span style="--i:15"></span>
+                        <span style="--i:17"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                        <span style="--i:18"></span>
+                        <span style="--i:13"></span>
+                        <span style="--i:14"></span>
+                        <span style="--i:19"></span>
+                        <span style="--i:20"></span>
+                        <span style="--i:10"></span>
+                    </div>
+                </div>
+                <div class="setdiv  animate__animated animate__slideInUp">
+                    <h2>Hi, I'm <br></h2>
+                    <h1><span>Pranav</span></h1>
+                    <p>B-Tech AI&DS Student 🎓 - Full Stack Developer �</p>
+                    <!-- <a href="https://git.io/typing-svg"><img
+                            src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&width=435&lines=I'm+a+Software+Engineer+Student;I+am+also+a+Software+Developer+;Love+to+take+Photos+and+write+blogs"
+                            alt="Typing SVG" /></a> -->
+
+
+
+                    <div class="wrapper">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                        <div class="shadow"></div>
+                        <div class="shadow"></div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="notification"
+                onclick="window.location.href = 'https://drive.google.com/file/d/1kLgjjzp-QV0_T0wh7G2JMoD9wPOvtpkG/view?usp=sharing';">
+                <p>Would you like to check my CV ?😊</p>
+                <span class="notification__progress"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="Section-Home/menu.js"></script>
+
+    <!-- home function -->
+
+    <div id="progress">
+        <span id="progress-value" class="gotoTop">
+            <?xml version="1.0" ?>
+            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
+                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
+                viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink">
+                <path
+                    d="M128.4,189.3L233.4,89c5.8-6,13.7-9,22.4-9c8.7,0,16.5,3,22.4,9l105.4,100.3c12.5,11.9,12.5,31.3,0,43.2  c-12.5,11.9-32.7,11.9-45.2,0L288,184.4v217c0,16.9-14.3,30.6-32,30.6c-17.7,0-32-13.7-32-30.6v-217l-50.4,48.2  c-12.5,11.9-32.7,11.9-45.2,0C115.9,220.6,115.9,201.3,128.4,189.3z" />
+            </svg>
+        </span>
+    </div>
+    <script src="Section-Home/Scroll-Top.js"></script>
+
+
+    <!-- about section -->
+    <div id="about">
+        <div class="containers box">
+            <div class="row">
+                <div class="col-1">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <div class="sub-line">
+                        <p>
+                            Pre-final year Artificial Intelligence & Data Science student focused on developing scalable
+                            web solutions and passionate about solving problems in coding platforms like leetcode. I
+                            mostly work with Python and React, and I’m currently experimenting with modern frameworks
+                            and learning AWS step by step.
+                        </p>
+                    </div>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span class="Education"><b>DSA & Languages :</b> <br></span>
+                                <div class="space1">
+                                    <p>Python, Java, C</p>
+                                </div>
+                            </li>
+                            <li><span class="Education"><b>Frontend :</b> <br></span>
+                                <div class="space1">
+                                    <p>HTML5, CSS3, React</p>
+                                </div>
+                            </li>
+                            <li><span class="Education"><b>Backend :</b> <br></span>
+                                <div class="space1">
+                                    <p>Node.js, Express.js</p>
+                                </div>
+                            </li>
+                            <li><span class="Education"><b>Database :</b> <br></span>
+                                <div class="space1">
+                                    <p>MongoDB, PostgreSQL</p>
+                                </div>
+                            </li>
+                            <li><span class="Education"><b>Tools :</b> <br></span>
+                                <div class="space1">
+                                    <p>Visual Studio, Cursor, WindSurf, Antigravity</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span class="Education"><b>B.Tech Artificial Intelligence and Data Science</b>
+                                </span><br>
+                                <p>KIT - Kalaignar Karunanidhi Institute of Technology</p>
+                                <p>2023 - 2027<br>GPA: 7.9/10</p>
+                            </li>
+                            <br>
+                            <li><span class="Education"><b>12th - Maths Biology</b> </span><br>
+                                <p>GOVT BOYS HR SEC SCHOOL PETHANAICKENPALAYAM SALEM</p>
+                                <p>2021 - 2022<br>Percentage: 83%</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span class="Education"><b>Full Stack Development</b> </span><br>
+                                <p>Learnlogicify Technologies</p>
+                                <p>Completed a Full Stack Development internship at LearnLogicify Technologies
+                                    (June–July 2025), gaining practical experience in front-end and back-end development
+                                    and building a complete e-commerce website with product listing, cart, and checkout
+                                    features.</p>
+                            </li><br>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-2">
+                    <img src="My%20Images/About%20me.jpeg">
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <!-- about section -->
+
+
+
+
+    <!-- skills Section -->
+
+    <h1 class="h1s box" id="myskills">My Skills</h1>
+    <br>
+    <div class="process-wrapperd box">
+        <div id="progress-bar-container">
+            <ul>
+                <li class="step step01 active">
+                    <div class="step-inner">Languages</div>
+                </li>
+                <li class="step step02">
+                    <div class="step-inner">Frontend</div>
+                </li>
+                <li class="step step03">
+                    <div class="step-inner">Backend</div>
+                </li>
+                <li class="step step04">
+                    <div class="step-inner">Database</div>
+                </li>
+                <li class="step step05">
+                    <div class="step-inner">Tools</div>
+                </li>
+            </ul>
+
+            <div id="line">
+                <div id="line-progress"></div>
+            </div>
+        </div>
+
+        <div id="progress-content-section">
+            <div class="section-content discovery active">
+
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded python">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Python</div>
+                        </div>
+
+                        <div class="carded java">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Java</div>
+                        </div>
+
+                        <div class="carded c">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">C</div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+                <h2>Frontend Web Developemt Skills</h2>
+
+            </div>
+
+
+            <div class="section-content strategy">
+
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded html">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">HTML5</div>
+                        </div>
+
+                        <div class="carded css">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">CSS3</div>
+                        </div>
+
+                        <div class="carded react">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">React</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Frontend Skills</h2>
+            </div>
+
+            <div class="section-content creative">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded node">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Node.js</div>
+                        </div>
+
+                        <div class="carded express">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Express.js</div>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>Backend Skills</h2>
+            </div>
+
+            <div class="section-content production">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded mongo">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">MongoDB</div>
+                        </div>
+
+                        <div class="carded postgres">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">PostgreSQL</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h2>Database Skills</h2>
+            </div>
+
+            <div class="section-content analysis">
+
+                <div class="skills">
+
+                    <div class="wrapperd">
+                        <div class="carded vscode">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">VS Code</div>
+                        </div>
+
+                        <div class="carded windsurf">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">WindSurf</div>
+                        </div>
+
+                        <div class="carded cursor">
+                            <div class="circled">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                            </div>
+                            <div class="text">Cursor</div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Tools</h2>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let optionse = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.95,
+            fill: { gradient: ["#526D82", "rgb(2, 6, 48)"] },
+        };
+        $(".circled .bar")
+            .circleProgress(optionse)
+            .on("circle-animation-progress", function (event, progress, stepValue) {
+                $(this)
+                    .parent()
+                    .find("span")
+                    .text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
+        $(".python .bar").circleProgress({
+            value: 0.85,
+        });
+        $(".java .bar").circleProgress({
+            value: 0.70,
+        });
+        $(".c .bar").circleProgress({
+            value: 0.70,
+        });
+        $(".html .bar").circleProgress({
+            value: 0.80,
+        });
+        $(".css .bar").circleProgress({
+            value: 0.80,
+        });
+        $(".react .bar").circleProgress({
+            value: 0.60,
+        });
+        $(".node .bar").circleProgress({
+            value: 0.80,
+        });
+        $(".express .bar").circleProgress({
+            value: 0.75,
+        });
+        $(".mongo .bar").circleProgress({
+            value: 0.80,
+        });
+        $(".postgres .bar").circleProgress({
+            value: 0.75,
+        });
+        $(".vscode .bar").circleProgress({
+            value: 0.90,
+        });
+        $(".windsurf .bar").circleProgress({
+            value: 0.90,
+        });
+        $(".cursor .bar").circleProgress({
+            value: 0.80,
+        });
+    </script>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+
+        $(".step").click(function () {
+            $(this).addClass("active").prevAll().addClass("active");
+            $(this).nextAll().removeClass("active");
+        });
+
+        $(".step01").click(function () {
+            $("#line-progress").css("width", "3%");
+            $(".discovery").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step02").click(function () {
+            $("#line-progress").css("width", "25%");
+            $(".strategy").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step03").click(function () {
+            $("#line-progress").css("width", "50%");
+            $(".creative").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step04").click(function () {
+            $("#line-progress").css("width", "75%");
+            $(".production").addClass("active").siblings().removeClass("active");
+        });
+
+        $(".step05").click(function () {
+            $("#line-progress").css("width", "100%");
+            $(".analysis").addClass("active").siblings().removeClass("active");
+        });
+
+
+    </script>
+
+    <!-- skill section -->
+
+
+
+    <!-- Projects section -->
+    <div id="projects">
+        <div class="containers box">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="service-list">
+
+
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://github.com/pranavperiyasamy41/Zyra';">
+                        <div class="card4">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/Zyra.gif" alt="Zyra GIF">
+                                </div>
+                                <span class="p_hcolor">Zyra</span>
+                                <p>
+                                    Smart Inventory System for Pharmacies.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> TypeScript, Node.js, MongoDB <br>
+                                </p>
+                                <p align="right"><i><span class="p_color">(View Source)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://pranavperiyasamy41.github.io/Mirror-Verse/';">
+                        <div class="card2">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/MirrorVerse.gif" alt="Mirror Verse GIF">
+                                </div>
+                                <span class="p_hcolor">Mirror Verse</span>
+                                <p>
+                                    Interactive browser game with dynamic, challenging puzzles.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> HTML5, CSS3, JavaScript <br>
+                                </p>
+                                <p align="right"><i><span class="p_color">(Play Now)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://pranavperiyasamy41.github.io/Calculator/';">
+                        <div class="card3">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/Calculator.gif" alt="Calculator GIF">
+                                </div>
+                                <span class="p_hcolor">Calculator</span>
+                                <p>
+                                    Responsive calculator with basic operations.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> HTML5, CSS3, JavaScript
+                                </p>
+                                <p align="right"><i><span class="p_color">(Try It)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/pranavperiyasamy41/Healopedia';">
+                        <div class="card5">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/Healopedia.gif" alt="Healopedia GIF">
+                                </div>
+                                <span class="p_hcolor">Healopedia</span>
+                                <p>
+                                    Medicine search web app providing detailed info by name.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> HTML5, CSS3, Python
+                                </p>
+                                <p align="right"><i><span class="p_color">(View Source)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card"
+                        onclick="window.location.href = 'https://github.com/pranavperiyasamy41/Pixels-by-Prose';">
+                        <div class="card6">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/PixelsByProse.gif" alt="Pixels By Prose GIF">
+                                </div>
+                                <span class="p_hccolor">Pixels By Prose</span>
+                                <p>
+                                    AI app converting text prompts into images.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> HTML5, CSS3, Python
+                                </p>
+                                <p align="right"><i><span class="p_color">(View Source)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="card" onclick="window.location.href = 'https://sweet-delights-cafe.netlify.app/';">
+                        <div class="card7">
+                            <div class="position">
+                                <div class="project-icon">
+                                    <img src="Project%20card%20images/SweetDelights.gif" alt="Sweet Delights GIF">
+                                </div>
+                                <span class="p_hcolor">Sweet Delights</span>
+                                <p>
+                                    Visually appealing bakery/cafe website.
+                                </p>
+                                <p>
+                                    <b><span class="p_color">Stack:</span></b> HTML5, CSS3
+                                </p>
+                                <p align="right"><i><span class="p_color">(Visit Site)</span></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <div class="card">
+                        <div class="card8">
+                            <div class="position">
+                                <br><br><br><br>
+                                <img align="center" class="icon" src="images/soon.png" width="180">
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects section -->
+
+    <!-- Coding Profiles Section -->
+    <div id="coding-profiles">
+        <div class="containers box">
+            <h1 class="sub-title">Coding Platforms & Profiles</h1>
+            <div class="profiles-list">
+                <div class="profile-card" onclick="window.location.href = 'https://leetcode.com/u/pranav_041/';">
+                    <div class="profile-content">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/leetcode.svg" alt="LeetCode"
+                            width="50" height="50" style="filter: invert(1); margin-bottom: 20px;">
+                        <h2>Leetcode</h2>
+                        <p>Check out my problem-solving journey on Leetcode.</p>
+                        <a href="https://leetcode.com/u/pranav_041/">View Profile</a>
+                    </div>
+                </div>
+                <div class="profile-card" onclick="window.location.href = 'https://www.codechef.com/users/pranav_p';">
+                    <div class="profile-content">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codechef.svg" alt="CodeChef"
+                            width="50" height="50" style="filter: invert(1); margin-bottom: 20px;">
+                        <h2>CodeChef</h2>
+                        <p>See my competitive programming stats on CodeChef.</p>
+                        <a href="https://www.codechef.com/users/pranav_p">View Profile</a>
+                    </div>
+                </div>
+                <div class="profile-card" onclick="window.location.href = 'https://codeforces.com/profile/pranav__p';">
+                    <div class="profile-content">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/codeforces.svg" alt="Codeforces"
+                            width="50" height="50" style="filter: invert(1); margin-bottom: 20px;">
+                        <h2>Codeforces</h2>
+                        <p>View my ratings and contest history on Codeforces.</p>
+                        <a href="https://codeforces.com/profile/pranav__p">View Profile</a>
+                    </div>
+                </div>
+                <div class="profile-card"
+                    onclick="window.location.href = 'https://www.geeksforgeeks.org/profile/pranav_041';">
+                    <div class="profile-content">
+                        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/geeksforgeeks.svg"
+                            alt="GeeksforGeeks" width="50" height="50" style="filter: invert(1); margin-bottom: 20px;">
+                        <h2>GeeksforGeeks</h2>
+                        <p>Explore my articles and coding practice on GFG.</p>
+                        <a href="https://www.geeksforgeeks.org/profile/pranav_041">View Profile</a>
+                    </div>
+                </div>
+                <div class="profile-card" onclick="window.location.href = 'https://codolio.com/profile/Pranav@p';">
+                    <div class="profile-content">
+                        <!-- Codolio icon not on simple-icons, using a generic code icon -->
+                        <i class="fas fa-id-card" style="font-size: 50px; margin-bottom: 20px;"></i>
+                        <h2>Codolio</h2>
+                        <p>Track my coding portfolio and progress on Codolio.</p>
+                        <a href="https://codolio.com/profile/Pranav@p">View Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Coding Profiles Section -->
+
+
+
+    <!-- Photographs Section -->
+
+
+    <!-- blogs -->
+
+
+
+
+
+
+    <!-- contact me -->
+
+    <div id="contactme" class="box">
+        <section class="contact hidden">
+            <div class="contact-form">
+                <h1>Contact <span class="us">Me</spanc>
+                </h1>
+                <p>I am available for work. Connect with me via phone: +91-7550356318 or
+                    email: pranavperiyasamy07@gmail.com
+                </p>
+                <form action="https://formspree.io/f/mknabrlj" method="POST">
+                    <input type="name" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="E-mail" required>
+                    <input type="subject" placeholder="Write a Subject" required>
+                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="btn">Submit</button>
+                </form>
+
+            </div>
+            <div class="contact-img">
+                <img class="check" src="My Images/casual pose.jpeg">
+            </div>
+        </section>
+    </div>
+
+    <!-- contact me -->
+
+
+    <div class="Social box">
+        <div class="wrappeer">
+            <div class="icon instagram" onclick="window.location.href = 'https://github.com/pranavperiyasamy41';">
+                <div class="tooltip">GitHub</div>
+                <span><i class="fab fa-github"></i> </span>
+            </div>
+            <div class="icon linkedin" onclick="window.location.href = 'https://www.linkedin.com/in/pranav41/';">
+                <div class="tooltip">Linkedin</div>
+                <span><i class="fab fa-linkedin"></i> </span>
+            </div>
+
+        </div>
+
+
+
+        <div class="cv box">
+            <button class="button"
+                onclick="window.location.href = 'https://drive.google.com/file/d/17IJwNU9xwA4yIlRC7UTAwHn_mcN2DLWe/view?usp=drivesdk';">
+                <span class="button_lg">
+                    <span class="button_sl"></span>
+                    <span class="button_text">Download My CV</span>
+                </span>
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="Section-Home/animation.js"></script>
+
+
+
+    <div class="end">
+        <p>© 2026 Pranav Periyasamy. All rights reserved.</p>
+    </div>
+    <!-- 
+    <script>
+
+        // Select all elements with the "box" class
+        const boxes = document.querySelectorAll('.box');
+
+        // Create a new Intersection Observer
+        const options = {
+            root: null, // use the viewport as the root
+            threshold: 0 // 20% of the element is visible
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+
+
+
+
+                } else {
+                    entry.target.style.opacity = 0;
+
+
+                }
+            });
+        }, options);
+
+        // Start observing each target element
+        boxes.forEach(box => observer.observe(box));
+
+
+
+    </script> -->
+
+
+</body>
+
+</html>
